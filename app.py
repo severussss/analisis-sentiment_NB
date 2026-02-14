@@ -97,7 +97,7 @@ def auto_pick_text_col(columns):
     return None
 
 
-uploaded = st.file_uploader("Upload dataset (CSV) dan pastikan kolom bernama Clean Tweet", type=["csv"])
+uploaded = st.file_uploader("Upload dataset (CSV) dan pastikan kolom bernama Clean Tweet serta data dalam bahasa Inggris", type=["csv"])
 if not uploaded:
     st.info("Silakan upload file CSV terlebih dahulu.")
     st.stop()
