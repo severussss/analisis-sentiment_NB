@@ -167,7 +167,7 @@ if st.button("Train and Evaluate Naive Bayes"):
                 text_col=text_col,
                 label_col=label_col,
                 test_size=float(test_size),
-                random_state=100
+                random_state=50
             )
 
         c1, c2 = st.columns([1, 1])
