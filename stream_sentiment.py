@@ -10,7 +10,7 @@ def train_and_evaluate(
     df: pd.DataFrame,
     text_col: str = "Clean Tweet",
     label_col: str = "Score",
-    test_size: float = 0.2,
+    test_size: float = 0.1,
     random_state: int = 100,
 ):
     if text_col not in df.columns:
