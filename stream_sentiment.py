@@ -11,7 +11,7 @@ def train_and_evaluate(
     text_col: str = "Clean Tweet",
     label_col: str = "Score",
     test_size: float = 0.2,
-    random_state: int = 42,
+    random_state: int = 100,
 ):
     if text_col not in df.columns:
         raise KeyError(f"Kolom teks '{text_col}' tidak ditemukan. Kolom tersedia: {list(df.columns)}")
