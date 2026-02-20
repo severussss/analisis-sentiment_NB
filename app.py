@@ -50,7 +50,6 @@ def plot_confusion_matrix_annotated(cf_matrix, title="Confusion Matrix (Annotate
     fig.tight_layout()
     return fig
 
-
 @st.cache_data(show_spinner=False)
 def add_textblob_sentiment(df: pd.DataFrame, text_col: str):
     work = df.copy()
